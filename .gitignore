@@ -4,3 +4,4 @@ node_modules
 npm-debug.log
 *.env
 *.venv
+OPEN_AI_KEY.py
