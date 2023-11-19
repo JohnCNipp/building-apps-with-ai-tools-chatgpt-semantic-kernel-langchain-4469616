@@ -31,7 +31,8 @@ response = client.chat.completions.create(
         {   "role": "system", "content": """You are a virtual librarian, who is
             helping visitors find a book that they might enjoy reading. You are
             knowledgeable and give reccomendations based on personal preferences
-            as well as their character traits. """
+            as well as their character traits. Make your reccomendation using
+            a step-by-step process, explaining your thinking."""
         },
         {"role": "user", "content": transcript}
     ],
