@@ -3,5 +3,9 @@ node_modules
 .tmp
 npm-debug.log
 *.env
+<<<<<<< HEAD
 *.venv
 OPEN_AI_KEY.py
+=======
+*.venv
+>>>>>>> 891b448eaa2adca762bf02a7170ff46cb205b856
